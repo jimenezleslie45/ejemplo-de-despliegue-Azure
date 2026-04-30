@@ -18,5 +18,7 @@ Objetivos del Proyecto
 2.  Utilizar Python con Flask como framework
 3.  Desplegar en Azure App Service
 4.  Configurar despliegue automático mediante Push a GitHub
-5.  Demostrar el proceso de CI/CD conGitHub Actions
+5.  Demostrar el proceso de CI/CD con GitHub Actions
+
+Nota: el workflow de GitHub Actions utiliza el perfil de publicación de Azure Web App (publish profile) para el despliegue automático.
 
