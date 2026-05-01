@@ -20,5 +20,4 @@ Objetivos del Proyecto
 4.  Configurar despliegue automático mediante Push a GitHub
 5.  Demostrar el proceso de CI/CD con GitHub Actions
 
-Nota: el workflow de GitHub Actions utiliza el perfil de publicación de Azure Web App (publish profile) para el despliegue automático.
 

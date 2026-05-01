@@ -1,9 +1,11 @@
+import os
 from flask import Flask
 app = Flask(__name__)
 
 @app.route('/')
 def hello_world():
-    return '<h1>¡Bienvenido a mi App Automatizada leslie Garcia!</h1><p>Despliegue inicial exitoso.</p>'
+    return '<h1>¡App de Leslie Garcia funcionando desde Azure y GitHub!</h1><p></p>'
 
 if __name__ == '__main__':
-    app.run()
+    port = int(os.environ.get('PORT', 5000))
+    app.run(host='0.0.0.0', port=port)
